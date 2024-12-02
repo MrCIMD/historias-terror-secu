@@ -1,0 +1,49 @@
+/* selector {reglas} */
+body {
+  background-color: #010104;
+}
+
+.material-symbols-outlined {
+  color: #ebe9fc;
+}
+
+p,
+a,
+h1,
+h2 {
+  color: #ebe9fc;
+  font-family: "Comic Sans MS";
+}
+
+p {
+  line-height: 25px;
+}
+
+.container {
+  width: 720px;
+  margin: 25px auto;
+}
+
+.container .cover {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lecture {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.lecture img {
+  width: 100px;
+}
+
+.lecture a {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #ff8000;
+}
